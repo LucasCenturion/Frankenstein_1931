@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Scary';
+  src: url('../FONTS/scaryblood-webfont.woff2') format('woff2'),
+       url('../FONTS/scaryblood-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.togle {
+  width: 40px;
+  height: 40px;
+}
+
+.logo {
+  width: 150px;
+}
+
+header {
+  background: linear-gradient(135deg, #000000, #410000);
+}
+
+body {
+  background: linear-gradient(135deg, #000000, #410000);
+  padding: 10px;
+}
+
+.menucolor {
+  color: red;
+  font-family: 'Scary';
+}
+
+.Portada {
+  background-image: url(../IMG/frankstein1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-attachment: scroll;
+}
+
+.Portada h1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: 'Scary';
+  color: red;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Scary';
+  color: red;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.Actores img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid red;
+  justify-content: center;
+}
+
+.Actores {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+
+h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+
+.sinFondo {
+  background-image: url(../IMG/fondo1.jpg);
+  background-size: cover;
+  color: red;
+  height: 400px;
+  border-radius: 20px;
+}
+
+@media (max-width: 665px) {
+  .logo {
+    display: none;
+  }
+
+  .dnone-movil {
+    display: none;
+  }
+
+  .sinFondo {
+    height: auto;
+  }
+
+  .carousel-item img {
+    height: 300px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .tramaFondo{
+    height: 300px;
+  }
+
+  .tramaFondo img{
+    height: 100%;
+  }
+
+  #parrafoTrama{
+    height: 100%;
+  }
+.dnone-movil-off{
+  width: 100%;
+  justify-content: center;
+}
+  
+}
+
+.imagenesCarrocel {
+  width: 100%;
+  background-size: cover;
+}
+
+.contenedor {
+  height: 600px;
+}
+
+.imagenTrama{
+  height: 300px;
+}
+.informacion h3{
+    font-family: 'Scary';
+    color: black;
+    font-size: larger;
+}
+
+.informacion p{
+  font-size: smaller;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+.informacion{
+  background-color: red;
+  background-size: contain;
+  height: 250px;
+  justify-content: center;
+  text-align: center;
+}
+.form-group{
+  background-color: #000000;
+  color: red;
+  border-radius: 10px;
+}
+
+.utimoSeccion{
+  margin-top: 15px;
+}
+
+ul{
+  color: red;
+}
+
+.form-label, .form-control, option{
+  background-color: #000000;
+  color: red;
+}
+
+span{
+  color: red;
+}
+
+fieldset{
+  margin-bottom: 10px;
+}
